@@ -1,6 +1,3 @@
-<?php
-$foot = 21;
- ?>
  <!DOCTYPE html>
  <html lang="fr">
    <head>
@@ -11,9 +8,8 @@ $foot = 21;
      <p>
 <?php
 //On recule d'un pas de 20 à 0
-while($foot > 0){
-  $foot--;
-  echo $foot . ' C\'est presque bon'. '<br/>';
+for($foot = 20; $foot > 0; $foot--){
+  echo ' C\'est presque bon'. '<br/>';
 }
  ?>
      </p>
